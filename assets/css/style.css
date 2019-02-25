@@ -1,0 +1,20 @@
+.row{
+    box-shadow: 1px 4px 10px 0px grey;
+    margin: 20px;
+}
+
+.btn:focus, .btn::-moz-focus-inner{
+    outline:none;
+    border:none;
+}
+.btn{
+    font-family: arial;
+    font-size:14px;
+    text-transform: uppercase;
+    font-weight:700;
+    border:none;
+    padding:10px;
+    cursor: pointer;
+    display:inline-block;
+    text-decoration: none;
+}
